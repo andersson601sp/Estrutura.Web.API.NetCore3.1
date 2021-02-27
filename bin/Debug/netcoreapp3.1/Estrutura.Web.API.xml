@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Estrutura.Web.API</name>
+    </assembly>
+    <members>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.Id">
+            <summary>
+            Id usuario
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.FirstName">
+            <summary>
+            Nome usuario
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.LastName">
+            <summary>
+            SobreNome usuario
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.Username">
+            <summary>
+            Login
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.Password">
+            <summary>
+            senha
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.Role">
+            <summary>
+            perfil usuario
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Dtos.UserDto.Token">
+            <summary>
+            Token
+            </summary>
+        </member>
+        <member name="T:Estrutura.Web.API.Helpers.AppSettings">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Helpers.AppSettings.Secret">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Estrutura.Web.API.Models.AuthenticateModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Estrutura.Web.API.Models.AuthenticateModel.Username">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Estrutura.Web.API.Models.AuthenticateModel.Password">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Estrutura.Web.API.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Estrutura.Web.API.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Estrutura.Web.API.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Estrutura.Web.API.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Estrutura.Web.API.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Estrutura.Web.API.Startup.Configuration">
+            <summary>
+            
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Estrutura.Web.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Estrutura.Web.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.AspNetCore.Mvc.ApiExplorer.IApiVersionDescriptionProvider)">
+            <summary>
+              This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="apiProviderDescription"></param>
+        </member>
+    </members>
+</doc>
